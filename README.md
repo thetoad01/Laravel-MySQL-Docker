@@ -1,11 +1,13 @@
 # Laravel-Mysql-Docker
-Docker setup for Laravel include MySQL container.
+Docker setup for Laravel includes MySQL container.
 
 ## Docker Basics
 To run project:  
 ```
 docker-compose up -d --build
 ```
+
+Make sure you are in the src/ directory when running Composer commands.  
 
 To run Artisan commands:  
 ```
